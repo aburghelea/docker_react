@@ -13,10 +13,10 @@ script:
 deploy:
     provider: elasticbeanstalk
     region: "us-west-2"
-    app: "icemanftg_udemy"
-    env: "Icemanftgudemy-env"
+    app: "icemanftg_udemy_legacy"
+    env: "icemanftgudemylegacy-env"
     bucket_name: "elasticbeanstalk-us-west-2-329849802075"
-    bucket_path: "icemanftg_udemy"
+    bucket_path: "icemanftg_udemy_legacy"
     on:
         branch: master
     access_key_id: $AWS_ACCESS_KEY
